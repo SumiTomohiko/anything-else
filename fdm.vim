@@ -29,8 +29,10 @@ syntax match Type "^set"
 " Parameters
 syntax keyword Keyword server port
 syntax keyword Keyword user pass
-syntax keyword Type continue drop keep
-syntax keyword Keyword imap imaps nntp nntps pop3s
+syntax keyword Keyword cache new-only no-apop no-verify
+syntax keyword Keyword keep
+syntax keyword Keyword continue drop
+syntax keyword Keyword imap imaps nntp nntps pop3 pop3s
 syntax keyword Keyword append exec pipe rewrite smtp tag write
 syntax keyword Keyword mbox mboxes maildir maildirs
 syntax keyword Keyword stdin stdout
@@ -39,7 +41,6 @@ syntax keyword Keyword gigabyte gigabytes kilobyte kilobytes megabyte megabytes
 syntax keyword Keyword day days hour hours invalid minute minutes month months
 syntax keyword Keyword second seconds week weeks year years
 syntax keyword Keyword expire
-syntax keyword Keyword cache new-only no-apop no-verify
 syntax keyword Keyword folder folders
 syntax keyword Keyword group groups
 syntax keyword Keyword no-cram-md5 no-login
