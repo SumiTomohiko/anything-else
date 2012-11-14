@@ -20,7 +20,7 @@ syntax region String start="\"" end="\"" skip="\\\""
 syntax match Number "[0-9][0-9]*[KMG]?"
 syntax match Identifier "[$%][A-Za-z_][A-Za-z0-9_]*"
 
-syntax match Keyword "action"	" action at not head of a line.
+syntax match Keyword "action"	" 'action' at not head of a line.
 syntax match Type "^account"
 syntax match Type "^action"
 syntax match Type "^match"
